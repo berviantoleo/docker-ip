@@ -1,0 +1,12 @@
+{
+  "name": "docker-ip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/berviantoleo/docker-ip.git",
+  "author": "Bervianto Leo Pratama <bervianto.leo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request-ip": "^2.1.3"
+  }
+}
