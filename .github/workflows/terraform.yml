@@ -8,6 +8,8 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-22.04
+    permissions:
+      pull-requests: write
     defaults:
       run:
         working-directory: infra
